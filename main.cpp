@@ -19,10 +19,10 @@ void agregar_nodo(){
 	system("cls");
 	nuevo_nodo->valor=input;
 	if(puntero_inicio == NULL){
-	nuevo_nodo->anterior=puntero_anterior;
-	nuevo_nodo->siguiente=NULL;
-	puntero_inicio=nuevo_nodo;
-	puntero_anterior=nuevo_nodo;
+		nuevo_nodo->anterior=puntero_anterior;
+		nuevo_nodo->siguiente=NULL;
+		puntero_inicio=nuevo_nodo;
+		puntero_anterior=nuevo_nodo;
 	}
 	else{
 		puntero_anterior->siguiente=nuevo_nodo;
